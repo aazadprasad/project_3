@@ -1,0 +1,327 @@
+@media only screen and (max-width:2000px){
+	
+	#hamb{
+		display: block;
+		display: none;
+	}
+
+	#privacy1{
+		display: block;
+		display: none;
+	}
+}
+
+@media only screen and (max-width:600px) and (min-width:400px){
+
+	body{
+		width: 100%;
+		overflow-x:hidden;
+	}
+	#bhoot{
+			background:#dbdbc6;
+		}
+	#hamb{
+		margin-right:15px;
+	}
+
+	#header{
+		width:99vw;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding: 0px;
+		
+	}
+
+	#search-menu{
+		display: block;
+		display: none;
+	}
+	
+	#hamb{
+		display: block;
+		margin-top:auto;
+		margin-bottom:auto;
+		order: 2;
+		
+		
+	}
+	#food-logo{
+		order: 1;
+	}
+	#food-manage{
+		margin-left: 20px;
+		margin-right: 0px;
+
+	}
+	#sidebar{
+		display: block;
+		display: none;
+	}
+	#main{
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	flex-basis:90vw;
+	margin-top:2px;
+	}
+	#content{
+	
+	flex-basis: 90%;
+	
+	}
+	#up{
+		width:105% 
+	}
+	#up{
+	/*display: flex;
+	flex-wrap: wrap;*/
+	flex-direction: column;
+	flex-basis: 95%;
+
+	flex-shrink: 1;
+	}
+	#indians img{
+	width: 100%;
+	height: 100%;
+	
+	}
+
+	#japanese img{
+	width: 100%;
+	
+	}
+	#up div{
+	flex-basis: 90%;
+	padding: 7px;
+	/*padding-top: 10px;*/
+	padding-bottom:5px;
+	padding-left: 15px;
+	padding-right: 25px;
+	
+	}
+	#t1{
+
+	left: 75px;
+	top: 145px;
+	padding:10px 2px 10px 2px;
+	width:28%;
+
+	}
+	#t2{
+
+	left: 120px;
+	top: 170px;
+	padding:5px 15px;
+	width:25%;
+
+	}
+
+	#t3{
+
+	left: 90px;
+	top: 140px;
+	
+
+	width:28%;
+	
+
+	}
+
+
+	
+	#up .t1{
+		padding:8px 4px; 
+	}
+
+	#t4{
+
+	left: 100px;
+	top: 110px;
+	padding:5px 15px;
+	width:27%;
+
+	}	
+
+	#t5{
+
+	left: 100px;
+	top: 170px;
+	
+	width:30%;
+
+	}
+	#down{
+		flex-wrap: wrap;
+		width:100%;
+	}
+	#theme1{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+	padding:10px;
+	width: 91%;
+
+	height: min-content;
+	
+
+	}
+
+	#theme2{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+	padding:10px;
+	width: 91%;
+
+	height: min-content;
+	
+
+	}
+
+	#theme3{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+	padding:10px;
+	width: 91%;
+	height: min-content;
+	
+
+	}
+
+	#theme4{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+	padding:10px;
+	width: 91%;
+	height: min-content;
+	
+
+	}
+	#r1{
+		width: 25%;
+		left:65%;
+		display: block;
+		text-align: center;
+	}
+
+	#r2{
+		width: 25%;
+		left:65%;
+		display: block;
+		text-align: center;
+	}
+
+	#r3{
+		width: 25%;
+		left:65%;
+		display: block;
+		text-align: center;
+	}
+
+	#r4{
+		width: 25%;
+		left:65%;
+		display: block;
+		text-align: center;
+	}
+	#ho1 img{
+		width: 100%;
+	}
+
+	#ho2 img{
+		width: 100%;
+	}
+
+	#ho3 img{
+		width: 100%;
+	}
+
+	#ho4 img{
+		width: 100%;
+	}
+	#rate1{
+	left:85%;
+	top:5%;
+	font-size:13px;
+	}
+
+	#rate2{
+	left:85%;
+	top:5%;
+	font-size:13px;
+	}
+
+	#rate3{
+	left:85%;
+	top:5%;
+	font-size:13px;
+	}
+
+	#rate4{
+	left:85%;
+	top:5%;
+	font-size:13px;
+	}
+
+	#footer{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: space-evenly;
+	align-content: flex-start;*/
+	width: 94%;
+	height: min-content;
+	margin-top: 5px;
+	}
+
+	#foll p{
+		margin-left: auto;
+		margin-right:auto;
+		text-align: center;
+		font-size:15px;
+	}
+
+	#foll img{
+		margin-top:5px;
+	}
+
+	#privacy2{
+		display: block;
+		display: none;
+	}
+
+	#privacy1{
+		display: block;
+		margin-top: 10px;
+	}
+
+	#privacy1 ul{
+	text-align: center;
+	list-style: none;
+
+	}
+
+	
+
+	#privacy1 li{
+		
+		padding: 0px;
+		font-size: 20px;
+	}
+	#privacy1 ul{
+		padding: 0px;
+	 	
+	}
+	#privacy1 a{
+		color: white;
+		text-decoration: none;
+	}
+
+	
+		
+		
+		
+
+
